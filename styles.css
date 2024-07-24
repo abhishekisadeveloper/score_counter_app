@@ -74,7 +74,7 @@ body{
 }
 #ball{
     background-color: #14a9c4;
-    color: #f3f6ff;
+    color: #000;
 }
 /* media queries */
 @media screen and (min-width: 524px) {
