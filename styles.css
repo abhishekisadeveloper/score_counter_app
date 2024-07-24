@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f3f6ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+}
+.canter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.inr-container{
+    color: #ffffff;
+    padding: 20px;
+    width: 90%;
+    background-color: #4c8787;
+    border-radius: 20px;
+}
+.outer-container{
+    margin-block: 20px;
+}
+#score{
+    font-size: 100px;
+}
+#target{
+    justify-content: space-around;
+    font-size: 40px;
+    margin-block: 30px;
+}
+#balls{
+    justify-content: space-around;
+    font-size: 40px;
+}
+.buttons{
+    flex-direction: column;
+    align-items: center;
+}
+.btn-group-1{
+    flex-wrap: wrap;
+    max-width: 230px;
+    gap: 30px;
+    margin-block: 30px;
+}
+.btn-group-2{
+    gap: 30px;
+}
+#btn-1, #btn-2, #btn-3, #btn-4, #wide, #ball, #reset{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+}
+#btn-1, #btn-2, #btn-3, #btn-4{
+    background-color: #ebebeb;
+    color: #4c8787;
+}
+/* section 2 */
+.reset-btn{
+    margin-block: 40px;
+}
+#reset{
+    background-color: #ca690e;
+    color: #f3f6ff;
+}
+#wide{
+    background-color: #ffd665;
+    color: #000;
+}
+#ball{
+    background-color: #14a9c4;
+    color: #f3f6ff;
+}
+/* media queries */
+@media screen and (min-width: 524px) {
+    .btn-group-1{
+        gap: 50px;
+        max-width: unset;
+        flex-wrap: wrap;
+    }
+    .btn-group-2{
+        gap: 50px;
+        margin-top: 10px;
+    }
+    #btn-1, #btn-2, #btn-3, #btn-4, #wide, #ball, #reset{
+        width: 170px;
+    }
+    #btn-1, #btn-2, #btn-3, #btn-4{
+        flex:  auto;
+    }
+}
